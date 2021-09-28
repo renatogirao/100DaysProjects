@@ -56,15 +56,39 @@
 		5724A2A526F46912006650F0 /* Project2 */ = {
 			isa = PBXGroup;
 			children = (
+				5724A2BA26F4697B006650F0 /* Controller */,
+				5724A2BB26F46985006650F0 /* View */,
+				5724A2BC26F4698E006650F0 /* Utils */,
+			);
+			path = Project2;
+			sourceTree = "<group>";
+		};
+		5724A2BA26F4697B006650F0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
 				5724A2A626F46912006650F0 /* AppDelegate.swift */,
 				5724A2A826F46912006650F0 /* SceneDelegate.swift */,
 				5724A2AA26F46912006650F0 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5724A2BB26F46985006650F0 /* View */ = {
+			isa = PBXGroup;
+			children = (
 				5724A2AC26F46912006650F0 /* Main.storyboard */,
-				5724A2AF26F46914006650F0 /* Assets.xcassets */,
 				5724A2B126F46914006650F0 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5724A2BC26F4698E006650F0 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				5724A2AF26F46914006650F0 /* Assets.xcassets */,
 				5724A2B426F46914006650F0 /* Info.plist */,
 			);
-			path = Project2;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -288,7 +312,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXUSNVLP69;
-				INFOPLIST_FILE = Project2/Info.plist;
+				INFOPLIST_FILE = Project2/Utils/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -307,7 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = KXUSNVLP69;
-				INFOPLIST_FILE = Project2/Info.plist;
+				INFOPLIST_FILE = Project2/Utils/info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
