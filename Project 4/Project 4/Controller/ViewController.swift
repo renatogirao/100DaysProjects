@@ -59,10 +59,10 @@ class ViewController: UIViewController, WKNavigationDelegate {
         title = webView.title
     }
     
-    override class func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
-        if keyPath == "estimatedProgress" {
+    override func observeValue(forKeyPath keyPath: String?, of object: Any?, change: [NSKeyValueChangeKey : Any]?, context: UnsafeMutableRawPointer?) {
+        if keyPath == "estimtedProgress" {
             progressView.progress = Float(webView.estimatedProgress)
-        } 
+        }
     }
-}
+    }
 
