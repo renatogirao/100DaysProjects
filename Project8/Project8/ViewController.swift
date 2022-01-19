@@ -54,6 +54,11 @@ class ViewController: UIViewController {
         submit.setTitle("SUBMIT", for: .normal)
         view.addSubview(submit)
         
+        let clear = UIButton()
+        submit.translatesAutoresizingMaskIntoConstraints = false
+        submit.setTitle("CLEAR", for: .normal)
+        view.addSubview(clear)
+        
         NSLayoutConstraint.activate([
             scoreLabel.topAnchor.constraint(equalTo: view.layoutMarginsGuide.topAnchor),
             scoreLabel.trailingAnchor.constraint(equalTo: view.layoutMarginsGuide.trailingAnchor),
