@@ -16,6 +16,8 @@
 		571B2108279666A800BCAF37 /* Project8Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B2107279666A800BCAF37 /* Project8Tests.swift */; };
 		571B2112279666A800BCAF37 /* Project8UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B2111279666A800BCAF37 /* Project8UITests.swift */; };
 		571B2114279666A800BCAF37 /* Project8UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 571B2113279666A800BCAF37 /* Project8UITestsLaunchTests.swift */; };
+		574E49A1279A4EE800221C65 /* level1.txt in Resources */ = {isa = PBXBuildFile; fileRef = 574E499F279A4EE700221C65 /* level1.txt */; };
+		574E49A2279A4EE800221C65 /* level2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 574E49A0279A4EE700221C65 /* level2.txt */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		571B210D279666A800BCAF37 /* Project8UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Project8UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		571B2111279666A800BCAF37 /* Project8UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project8UITests.swift; sourceTree = "<group>"; };
 		571B2113279666A800BCAF37 /* Project8UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project8UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		574E499F279A4EE700221C65 /* level1.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level1.txt; sourceTree = "<group>"; };
+		574E49A0279A4EE700221C65 /* level2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = level2.txt; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +108,8 @@
 				571B20F4279666A700BCAF37 /* ViewController.swift */,
 				571B20F6279666A700BCAF37 /* Main.storyboard */,
 				571B20F9279666A800BCAF37 /* Assets.xcassets */,
+				574E499F279A4EE700221C65 /* level1.txt */,
+				574E49A0279A4EE700221C65 /* level2.txt */,
 				571B20FB279666A800BCAF37 /* LaunchScreen.storyboard */,
 				571B20FE279666A800BCAF37 /* Info.plist */,
 			);
@@ -231,7 +237,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574E49A2279A4EE800221C65 /* level2.txt in Resources */,
 				571B20FD279666A800BCAF37 /* LaunchScreen.storyboard in Resources */,
+				574E49A1279A4EE800221C65 /* level1.txt in Resources */,
 				571B20FA279666A800BCAF37 /* Assets.xcassets in Resources */,
 				571B20F8279666A700BCAF37 /* Main.storyboard in Resources */,
 			);
